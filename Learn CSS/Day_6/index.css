@@ -1,0 +1,25 @@
+*{
+    border: 2px solid blue;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: none;
+
+}
+li{
+    display: inline;
+     margin: 30px;
+     border: none;
+}
+
+li:hover{
+    color: red;
+    cursor: pointer;
+}

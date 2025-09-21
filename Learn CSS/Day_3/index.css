@@ -1,0 +1,20 @@
+main{
+    border: 5px dotted red;
+    /* width: 50%; */
+    /* width:100vw; view width acc to screen */
+}
+
+section{
+    border: 5px dotted green;
+    width: 50%;
+}
+
+header {
+    /* font-size: 40px;  this is a absolute size*/
+    font-size: 2em;  /* 2x size of parent */
+}
+
+h2{
+    font-size: 3rem;
+    /* root em 1*3 */
+}

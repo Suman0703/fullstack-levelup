@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="form-container">
+     <h1>Student Registration Form</h1>
+
+    <form>
+      <label>First Name:</label>
+      <input type="text" maxlength="30" placeholder="Ex: Suman">
+
+      <label>Last Name:</label>
+      <input type="text" maxlength="30" placeholder="Ex: Devi">
+
+      <label>Date of Birth:</label>
+      <input type="date">
+
+      <label>Email Id:</label>
+      <input type="email" placeholder="Ex: suman07@gmail.com">
+
+      <label>Mobile No.:</label>
+      <input type="number" placeholder="1234567890" maxlength="10">
+
+      <label>Gender:</label>
+      <div class="gender-group">
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+      </div>
+
+      <label>Address:</label>
+      <textarea placeholder="Enter your address here..."></textarea>
+
+      <label>Country:</label>
+      <input type="text" value="India">
+
+      <label>State:</label>
+      <select>
+        <option>Andhra Pradesh</option>
+        <option>Punjab</option>
+        <option>Delhi</option>
+        <option>Maharashtra</option>
+      </select>
+
+      <label>City:</label>
+      <input type="text" maxlength="20" placeholder="Ex: Hoshiarpur">
+
+      <label>Pin Code:</label>
+      <input type="text" maxlength="6" placeholder="Ex: 146102">
+
+      <label>Course:</label>
+      <select>
+        <option>Under Graduation Courses</option>
+        <option>Post Graduation Courses</option>
+      </select>
+
+      <label>Upload 10+2 DMC:</label>
+      <input type="file">
+
+      <div class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+

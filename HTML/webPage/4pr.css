@@ -1,0 +1,256 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Section */
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("https://w0.peakpx.com/wallpaper/7/463/HD-wallpaper-vector-simple-green-houseplant-vector-doodle-simple-plant-aesthetic.jpg") no-repeat center center/cover;
+}
+
+/* Navbar */
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items:baseline;
+    justify-content:space-between;
+    padding:5px;
+
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('/media/Allison-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyFont1';
+    src: url('/media/CevicheOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Logo */
+.icon {
+    height: 70px;
+}
+.logo {
+    color:  #074d1d;  /* corrected color (previous was #ffb17 → typo) */
+    font-size: 35px;
+    font-family:'Myfont';
+    padding: 15px 20px-;
+    display: inline-block;
+}
+
+/* Menu */
+.menu {
+    height: 70px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul li {
+    margin-left: 40px;
+    font-size: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+ul li a:hover {
+    color: #074d1d;
+}
+
+/* Search Box */
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.srch {
+    font-family: 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  #074d1d;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.srch:focus {
+    outline: none;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background:  #074d1d;
+    border: 2px solid  #074d1d;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* Content */
+.content {
+    width: 1200px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 55px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+.content span {
+    color: #074d1d;
+    font-size: 62px;
+}
+.content .par {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background:  #074d1d;
+    border: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+.content .cn:hover {
+    background: #fff;
+}
+
+/* Form Box */
+.form {
+    width: 360px;
+    height: auto;
+    background: rgba(59, 58, 58, 0.8);
+    position: absolute;
+    top: -20px;
+    right: 0;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #074d1d;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.form input {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid  #074d1d;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.form input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #ddd;
+}
+
+/* Form Button */
+.btnn {
+    width: 100%;
+    height: 40px;
+    background: #074d1d;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.btnn:hover {
+    background: #fff;
+    color: #000;
+}
+.btnn a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    display: block;
+    line-height: 40px;
+}
+
+/* Extra Form Links */
+.form .link {
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a {
+    text-decoration: none;
+    color:  #060000;
+}
+.liw {
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Icons */
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon {
+    font-size: 28px;
+    padding: 5px 8px;
+    transition: color 0.3s ease;
+}
+.icons ion-icon:hover {
+    color: #074d1d;
+}
+#h1{
+    font-family: 'MyFont1';
+    margin-left: 10px;
+}
