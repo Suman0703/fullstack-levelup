@@ -1,0 +1,12 @@
+.container{
+    border: 2px solid red ;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+}
+.c{
+    float:right;
+}
+.c1{
+    float: left;
+}

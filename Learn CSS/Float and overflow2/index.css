@@ -1,0 +1,42 @@
+body{
+    color: white;
+}
+*{
+ box-sizing: border-box;
+}
+.container{
+width: 400px;
+height:400px;
+background-color: aquamarine;
+margin: 100px;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+
+.red{
+    background-color: red;
+    border: solid 2px black;
+    float: left;
+}
+
+.green{
+    background-color: green;
+    border: solid 2px black;
+    float: left;
+    clear: left;
+
+}
+.blue{
+background-color: blue;
+border: solid 2px black;
+float:left;
+}
+.purple{
+    background-color: rgb(127, 45, 72);
+    border: solid 2px black;
+}
