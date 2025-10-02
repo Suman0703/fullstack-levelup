@@ -1,0 +1,16 @@
+body{
+    background-color:teal ;
+}
+
+@media ( width <=400px){
+    body{
+        background-color: green;
+    }
+}
+
+@media ( width <=600px){
+    body{
+        background-color: gold;
+    }
+}
+
