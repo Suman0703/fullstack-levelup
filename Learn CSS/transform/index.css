@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 82, 60);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    /* transition-property: ; */
+    transition-delay: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+.box :hover{
+    background-color: red;
+    border-radius: 50%;
+}

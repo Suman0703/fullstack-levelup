@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.primary-button:hover{
+color: red;
+background-color: black;
+}
+
+.primary-button:link{
+color: green;
+}
+
+.primary-button:visited{
+    color: brown;
+}
+
+.primary-button:active{
+    color: black;
+    background-color: aliceblue;
+}
+
+ul li:first-child{
+    background-color: brown;
+}
+
+ul li:nth-child(2n){
+    background-color: aqua;
+}
+
+h2::first-letter{
+    background-color: red;
+}
+
+::selection{
+    color: chartreuse;
+    background-color: black;
+}
+
