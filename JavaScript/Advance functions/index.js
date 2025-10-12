@@ -36,3 +36,21 @@ let callme = ()=>{
 //passing function as an argument
 greets('Suman',callme)
 
+//find 
+const a = [1, -2, -3, 4, 5, 6, -7, 8, 9,];
+
+const firstneg =(num)=>{
+    return num<0;
+}
+const result = a.find(firstneg);
+console.log(result);
+
+//find index
+const x = a.findIndex(firstneg);
+console.log(x);
+
+//for each
+a.forEach((num,i)=>{
+console.log("array num",num,i);
+
+})
